@@ -7,7 +7,7 @@ gem 'pg'
 gem 'pusher'
 gem 'faye'
 gem 'thin'
-gem 'sync'
+gem 'sync', :git => 'git://github.com/gmaliar/sync.git'
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git', :branch => 'rails4'
 
 group :development do
