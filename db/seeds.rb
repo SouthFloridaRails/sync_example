@@ -10,8 +10,8 @@ User.delete_all
 Project.delete_all
 Todo.delete_all
 
-user = User.create! name: "Chris McCord",
-                    email: "user@example.com",
+user = User.create! name: "Moises Zaragoza",
+                    email: "admin@test.com",
                     password: 'password',
                     password_confirmation: 'password'
 

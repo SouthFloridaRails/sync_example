@@ -4,7 +4,6 @@
 #= require sync
 #= require_tree .
 
-
 class Sync.UserListRow extends Sync.View
 
   beforeUpdate: (html, data) ->

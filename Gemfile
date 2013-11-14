@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', :git => 'git://github.com/rails/rails.git', :tag => 'v4.0.0.beta1'
 
+gem 'awesome_print'
 gem 'unicorn'
 gem 'pg'
 gem 'pusher'
@@ -14,6 +15,10 @@ group :development do
   gem 'pry'
   gem 'pry-remote'
   gem 'quiet_assets'
+  gem 'debugger'
+  gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 group :assets do
